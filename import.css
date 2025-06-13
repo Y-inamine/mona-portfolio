@@ -385,6 +385,7 @@ footer p{
     height: 60vh;
     padding: 40px 0px;
     position: relative;
+    overflow:hidden;
 }
 
 .gallery li{
@@ -977,7 +978,7 @@ footer p{
     }
     
     .top-character {
-        margin-left: 55%;
+        margin-left: 60%;
         z-index: 50;
         position: absolute;
         bottom: 0;
@@ -1016,7 +1017,7 @@ footer p{
     }
     
     .bottom img{
-        height: 75px;
+        height: 55px;
         margin: 0 auto;
     }
         
