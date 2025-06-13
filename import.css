@@ -916,6 +916,8 @@ footer p{
 
 @media only screen and (max-width: 768px) {
 
+    * { margin: 0; padding: 0; }
+
     .loading-animation img{
     height: 70px;
     margin-bottom: 10px;
