@@ -647,23 +647,23 @@ footer p{
 .gallery-nav{
     display: block;
     position: fixed;
-    width: 75px;
+    width: 60px;
     right: 1050px;
-    left: 40px;
+    left: 20px;
 }
 
 .gallery-nav ul li{
-    width: 85%;
-    margin: 25px 0px;
+    width: 100%;
+    margin: 50% 10%;
     opacity: 0.5;
-    transition: .7s ;
+    transition: .4s ;
     cursor: pointer;
 }
 
 .gallery-nav ul li p{
     font-weight:bold ;
     text-align: center;
-    font-size: 16px;
+    font-size: 13px;
 }
 
 .gallery-nav ul li img{
@@ -1048,6 +1048,7 @@ footer p{
 
     .gallery-nav {
         width: 50%;
+        max-width: 200px;
         height: 70px;
         position: relative;
         padding-top: 30px;
