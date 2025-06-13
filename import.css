@@ -597,12 +597,12 @@ footer p{
 }
 
 .contact{
-    width: 75%;
+    width: 80%;
     max-width: 1000px;
     margin: 0 auto;
 }
 
-.contast-text{
+.contact-text{
     line-height: 200%;
     margin-top: 40px;
 }
@@ -927,7 +927,7 @@ footer p{
     }
 
     header{
-        height: 80px;
+        height: 70px;
     }
 
     header h1 a img{
@@ -938,8 +938,8 @@ footer p{
         display: block;
         position: static;
         padding: 0;
-        line-height: 80px;
-        height: 80px;
+        line-height: 70px;
+        height: 70px;
         text-align: center;
     }
 
@@ -1036,10 +1036,24 @@ footer p{
         padding-bottom: 30px;
     }
 
-    .contast-text{
-    line-height: 200%;
-    margin-top: 20px;
-}
+    .contact{
+        width: 90%;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .contact-text{
+        line-height: 200%;
+        margin-top: 20px;
+    }
+    
+    .contact-button{
+    width: 200px;
+    }
+
+    .contact-button a{
+        font-size: 80%;
+    }
 
     .profile {
         display: block;
