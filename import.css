@@ -975,10 +975,9 @@ footer p{
         height: 50vh;
     }
 
-    .loop-wrap {
-        min-width: 200%;
-        height: 90%;
-        animation: loop-slide 80s linear infinite;
+    .loop-inner {
+        height: 60vh;
+        animation: loop-slide 90s linear infinite;
     }
 
     .loop-list {
