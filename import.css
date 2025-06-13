@@ -987,13 +987,43 @@ footer p{
     .loop-list {
         height: auto;
     }
-    
-    .loop-list li img{
-        height: auto;
-        max-height: 40vh;
-        width: auto;
-        max-width: 60vw;
+
+    .item1 img {
+    height: 40vh;
+    margin-top: 10vh;
+    margin-left: 30px;
     }
+
+    .item2 img {
+        height: 30vh;
+        margin-top: 5vh;
+    }
+
+    .item3 img{
+        height: 20vh;
+        margin-top: 20vh;
+    }
+
+    .item4 img {
+        height: 50vh;
+        margin-top: 10vh;
+    }
+
+    .item5 img {
+        height: 45vh;
+        margin-top: 0;
+    }
+
+    .item6 img {
+        height: 20vh;
+        margin-top: 40vh;
+    }
+
+    .item7 img {
+        height: 15vh;
+        margin-top: 20vh;
+    }
+
 
     .bottom{
         width: 75%;
