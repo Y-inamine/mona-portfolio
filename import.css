@@ -980,12 +980,8 @@ footer p{
     }
 
     .loop-inner {
-        height: 50vh;
-        animation: loop-slide 90s linear infinite;
-    }
-
-    .loop-list {
         height: auto;
+        animation: loop-slide 90s linear infinite;
     }
     
     .loop-list li img{
