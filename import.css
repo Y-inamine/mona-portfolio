@@ -916,6 +916,11 @@ footer p{
 
 @media only screen and (max-width: 768px) {
 
+    .loading-animation img{
+    height: 70px;
+    margin-bottom: 10px;
+    }
+
     body{
         max-width: 100%;
         margin: 0 auto;
@@ -944,7 +949,7 @@ footer p{
     }
 
     header li{
-        margin: 0px 15px;
+        margin: 0px 5px;
     }
 
     .c-txt.line {
