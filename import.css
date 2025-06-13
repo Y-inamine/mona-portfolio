@@ -990,7 +990,7 @@ footer p{
     
     .loop-list li img{
         height: auto;
-        max-height: 250px;
+        max-height: 50vh;
         width: auto;
         max-width: 60vw;
     }
