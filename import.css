@@ -981,7 +981,7 @@ footer p{
 
     .loop-inner {
         height: 70vh;
-        animation: loop-slide 90s linear infinite;
+        animation: loop-slide 40s linear infinite;
     }
 
     .loop-list {
