@@ -407,7 +407,7 @@ footer p{
     min-width: 200%;
     height: 100%;
     display: flex;
-    animation: loop-slide 120s linear infinite;
+    animation: loop-slide 250s linear infinite;
 
 }
 
@@ -969,7 +969,7 @@ footer p{
     .loop-wrap {
         min-width: 200%;
         height: 90%;
-        animation: loop-slide 100s linear infinite;
+    animation: loop-slide 90s linear infinite;
     }
 
     .loop-list {
