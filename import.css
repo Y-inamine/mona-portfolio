@@ -404,31 +404,40 @@ footer p{
 }
 
 .loop-wrap {
-    min-width: 200%;
+    width: 100%;
     height: 100%;
-    display: flex;
-    animation: loop-slide 250s linear infinite;
+}
 
+.loop-inner {
+    display: flex;
+    width: max-content;
+    height: 100%;
+    animation: loop-slide 180s linear infinite;
+}
+
+.loop-inner:hover {
+    animation-play-state: paused;
 }
 
 .loop-list {
     display: flex;
     height: 100%;
+    white-space: nowrap;
+}
 
+.loop-list li {
+    flex: 0 0 auto;
 }
 
 .loop-list li img {
+    display: block;
     margin-right: 10px;
     transition: transform 0.3s ease-in-out;
 }
 
-.loop-list:hover{
-    animation-play-state: paused;
-}
-
 .loop-list li img:hover {
     transform: rotate(2deg) scale(1.01);
-    opacity: 0.9;
+    opacity: 0.85;
     cursor: pointer;
 }
 
@@ -437,7 +446,7 @@ footer p{
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-100%);
+        transform: translateX(-50%);
     }
 }
 
@@ -969,13 +978,17 @@ footer p{
     .loop-wrap {
         min-width: 200%;
         height: 90%;
-    animation: loop-slide 90s linear infinite;
+        animation: loop-slide 80s linear infinite;
     }
 
     .loop-list {
         height: auto;
     }
     
+    .loop-list li img{
+        max-height: 150px;
+    }
+
     .bottom{
         width: 75%;
         position: relative;
