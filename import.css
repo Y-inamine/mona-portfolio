@@ -18,7 +18,7 @@ html body{
 }
 
 main{
-    margin-top: 100px;    
+    margin-top: 80px;    
     letter-spacing: 0.06em;
 }
 
@@ -361,29 +361,9 @@ footer p{
     margin-bottom: 0%;
 }
 
-/* .image:nth-of-type(1) {
-    animation-delay: 0s;
-}
-
-.image:nth-of-type(2) {
-    animation-delay: 3s;
-}
-
-.image:nth-of-type(3) {
-    animation-delay: 6s;
-}
-  
-@keyframes change-img-anim {
-    0%{ opacity: 0;}
-    20%{ opacity: 1;}
-    33%{ opacity: 1;}
-    63%{ opacity: 0;}
-    100%{ opacity: 0;}
-}   */
-
 .gallery{
     height: 60vh;
-    padding: 40px 0px;
+    padding-bottom: 40px;
     position: relative;
     overflow:hidden;
 }
@@ -424,93 +404,81 @@ footer p{
 
 }
 
-.content{
-    height: 100%;
-}
-
-.content1 {
-    height: 80%;
-    margin-left: 7%;
-}
-
-.content2 {
-    margin-top: 60%;
-    margin-left: 10%;
-    height: 70%;
-}
-
-.content3 {
-    margin-top: 10%;
-    height: 45%;
-}
-
-.content4 {
-    margin: 30% 0;
-    height: 75%;
-}
-
-.content5 {
-    height: 100%;
-}
-
-.content6 {
-    margin-top:20%;
-    height: 55%;
-}
-
-.content7 {
-    margin-top:130%;
-    height: 40%;
-}
-
-.wrap {
-    position: absolute;
-    display: flex;
-    height: 63%;
-    width: 100%;
-    margin-bottom: 3%;
+.loop-wrap {
     overflow: hidden;
-}
-
-.slideshow {
+    width: 100%;
+    height: 100%;
     display: flex;
-    -webkit-animation: loop-slide 80s infinite linear 1s both;
-    animation: loop-slide 98s infinite linear 1s both;
-    margin-bottom: 30px;
 }
 
-@-webkit-keyframes loop-slide {
-    from {
-      transform: translateX(0);
-    }
-    to {
-      transform: translateX(-100%);
-    }
+.loop-list {
+    display: flex;
+    animation: loop-slide 65s linear infinite;
+    height: 100%;
+
 }
 
-@keyframes loop-slide {
-    from {
-      transform: translateX(0);
-    }
-    to {
-      transform: translateX(-100%);
-    }
-}
-
-.slide-paused:hover .slideshow {
-    -webkit-animation-play-state: paused;
+.loop-wrap:hover .loop-list {
     animation-play-state: paused;
 }
 
-.content-hover {
-    transition: all 0.2s;
+.loop-list li img {
+    margin-right: 10px;
+    transition: transform 0.4s ease-in-out;
 }
 
-.content-hover:hover {
-    transform: rotate(0.007turn);
+.loop-list li img:hover {
+    transform: rotate(3deg) scale(1.01);
     opacity: 0.8;
     cursor: pointer;
 }
+
+@keyframes loop-slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.item1 img {
+    height: 55%;
+    margin-top: 120px;
+    margin-left: 30px;
+}
+
+.item2 img {
+    height: 60%;
+    margin-top: 10px;
+    transform: rotate(-3deg);
+}
+
+.item3 img{
+    height: 35%;
+    margin-top: 160px;
+}
+
+.item4 img {
+    height: 75%;
+    margin-top: 50px;
+}
+
+.item5 img {
+    height: 65%;
+    margin-top: 0px;
+}
+
+.item6 img {
+    height: 45%;
+    margin-top: 180px;
+}
+
+.item7 img {
+    height: 30%;
+    margin-top: 80px;
+}
+
 
 .gallery .title{
     margin-bottom: 5%;
