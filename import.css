@@ -977,7 +977,7 @@ footer p{
     }
     
     .top-character {
-        margin-left: 55%;
+        margin-left: 60%;
         z-index: 50;
         position: absolute;
         bottom: 0;
@@ -985,7 +985,7 @@ footer p{
 
     .top-character img {
         vertical-align: bottom;
-        height: 50vh;
+        height: 45vh;
     }
 
     .popup_box{	
