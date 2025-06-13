@@ -884,6 +884,10 @@ footer p{
 
     * { margin: 0; padding: 0; }
 
+    main{
+        margin-top: 70px;
+    }
+
     .loading-animation img{
     height: 70px;
     margin-bottom: 10px;
@@ -959,35 +963,17 @@ footer p{
 
     .top-character img {
         vertical-align: bottom;
-        height: 45vh;
+        height: 50vh;
     }
 
-     .loop-wrap {
+    .loop-wrap {
         min-width: 200%;
-        height: auto;
-        animation: loop-slide 120s linear infinite;
-        overflow: hidden;
+        height: 90%;
+        animation: loop-slide 100s linear infinite;
     }
 
     .loop-list {
         height: auto;
-    }
-
-    .loop-list li img {
-        height: 30vw; /* viewportに合わせて画像サイズを可変に */
-        margin-top: 10vw;
-        margin-right: 1vw;
-    }
-
-    .item1 img,
-    .item2 img,
-    .item3 img,
-    .item4 img,
-    .item5 img,
-    .item6 img,
-    .item7 img {
-        height: auto;
-        margin-top: 0;
     }
     
     .bottom{
