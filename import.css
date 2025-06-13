@@ -641,8 +641,10 @@ footer p{
 }
 
 .contact-button a{
+    position: relative;
     color: #7aa8af;
     letter-spacing:.1em;
+    z-index: 3;
 }
 
 .contact-button:hover {
