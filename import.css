@@ -18,7 +18,7 @@ html body{
 }
 
 main{
-    margin-top: 80px;    
+    margin-top: 100px;    
     letter-spacing: 0.06em;
 }
 
@@ -89,7 +89,6 @@ header {
 header .inner{
     display: flex;
     height: 90px;
-    width: 100%;
     position: fixed;
     left: 0;
     right: 0;
@@ -405,15 +404,15 @@ footer p{
 }
 
 .loop-wrap {
-    overflow: hidden;
-    width: 100%;
+    min-width: 200%;
     height: 100%;
     display: flex;
+    animation: loop-slide 120s linear infinite;
+
 }
 
 .loop-list {
     display: flex;
-    animation: loop-slide 65s linear infinite;
     height: 100%;
 
 }
@@ -438,7 +437,7 @@ footer p{
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-50%);
+        transform: translateX(-100%);
     }
 }
 
@@ -451,7 +450,6 @@ footer p{
 .item2 img {
     height: 60%;
     margin-top: 10px;
-    transform: rotate(-3deg);
 }
 
 .item3 img{
@@ -964,6 +962,33 @@ footer p{
         height: 45vh;
     }
 
+     .loop-wrap {
+        min-width: 200%;
+        height: auto;
+        animation: loop-slide 120s linear infinite;
+        overflow: hidden;
+    }
+
+    .loop-list {
+        height: auto;
+    }
+
+    .loop-list li img {
+        height: 30vw; /* viewportに合わせて画像サイズを可変に */
+        margin-top: 10vw;
+        margin-right: 4vw;
+    }
+
+    .item1 img,
+    .item2 img,
+    .item3 img,
+    .item4 img,
+    .item5 img,
+    .item6 img,
+    .item7 img {
+        height: auto;
+        margin-top: 0;
+    }
     
     .bottom{
         width: 75%;
