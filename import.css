@@ -994,34 +994,6 @@ footer p{
         height: 45vh;
     }
 
-    .popup_box{	
-        max-height: 85vh;
-        max-width: 85%;
-        display: none;	
-        position: fixed;
-        top:50%;
-        left:50%;
-        transform: translateX(-50%) translateY(-50%);
-        z-index: 110;
-        background: #efead5;				
-        padding: 40px;	
-    }
-
-    .popup_box img{	
-        max-height: 65vh;
-    }
-
-    .popup_nav .next {
-        right: -60px;
-    }
-
-    .popup_nav .prev{
-        left: -60px;
-    }
-
-    .popup_box p{
-        font-size: 13px;
-    }
     
     .bottom{
         width: 75%;
@@ -1140,6 +1112,35 @@ footer p{
         margin: 0;
     }
     
+    .popup_box{	
+        max-height: 85%;
+        width: 75%;
+        display: none;	
+        position: fixed;
+        top:50%;
+        left:50%;
+        transform: translateX(-50%) translateY(-50%);
+        z-index: 110;
+        background: #efead5;				
+        padding: 30px;	
+    }
+
+    .popup_box img{	
+        max-height: 85vh;
+    }
+
+    .popup_nav .next {
+        right: -33px;
+    }
+
+    .popup_nav .prev{
+        left: -33px;
+    }
+
+    .popup_box p{
+        font-size: 13px;
+    }
+
 
 
 }
