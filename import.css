@@ -976,7 +976,7 @@ footer p{
     .loop-list li img {
         height: 30vw; /* viewportに合わせて画像サイズを可変に */
         margin-top: 10vw;
-        margin-right: 4vw;
+        margin-right: 1vw;
     }
 
     .item1 img,
