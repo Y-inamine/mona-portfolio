@@ -1011,6 +1011,17 @@ footer p{
         max-height: 65vh;
     }
 
+    .popup_nav .next {
+        right: -60px;
+    }
+
+    .popup_nav .prev{
+        left: -60px;
+    }
+
+    .popup_box p{
+        font-size: 13px;
+    }
     
     .bottom{
         width: 75%;
